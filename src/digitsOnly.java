@@ -6,8 +6,8 @@ public class digitsOnly {
 		
 		String s="sds233242fs*&^1";
 		char[] a=s.toCharArray();
-		//System.out.println(s.matches("/*[0-9]/*"));
-		String s1=s.replaceAll("[^0-9]", "");
+		System.out.println(s.matches("/*[0-9]/*"));
+		 s=s.replaceAll("[^0-9]", "");
 		System.out.println(s);
 
 	}

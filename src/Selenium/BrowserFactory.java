@@ -32,7 +32,7 @@ public class BrowserFactory {
 			chOptions.addArguments("--disable-plugins","--disable-extensions","--disable-popup-blocking");
 			capability.setCapability(chOptions.CAPABILITY, chOptions);
 			capability.setCapability("applicationCacheEnabled", false);
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "//chromedriver_80.exe");
 			webDriver.set(new ChromeDriver());
 		}
 	}

@@ -37,12 +37,12 @@ public void beforetest(){
 public void beforemethod(){
 	System.out.println("Before Method");
 }
-	@Test(priority=1, dependsOnMethods="check2", enabled=false)
+	@Test(priority=1, dependsOnMethods="check2")
 	public void check1(){
 		System.out.println("Switching 1...............");
 	}
 	
-	@Test(priority=2, dependsOnMethods="check1", enabled=false)
+	@Test(priority=2, dependsOnMethods="check1")
 	public void check2(){
 		System.out.println("Switching 2...............");
 	}

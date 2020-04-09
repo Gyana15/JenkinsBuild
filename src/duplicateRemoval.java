@@ -38,7 +38,7 @@ for (int j = 0; j < s.length(); j++) {
 System.out.println(sb);
 int index=1;
 char[] chars=s.toCharArray();
-Arrays.sort(chars);
+//Arrays.sort(chars);
 	
 	 String result = "";
 	    for (int h = 0; h < s.length(); h++) {
